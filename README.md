@@ -1,38 +1,28 @@
-# Chall - Your Challenge Title
+# AI Apocalypse
 
-> A brief description of the challenge
+> This challenge is a web-based CTF challenge focusing on cookies and user interaction with web pages. Participants need to analyze how cookies are set, manipulated, and potentially exploited to solve the challenge.
 
 ## Type
 
-- [ ] **OFF**line
-- [X] **ON**line
+- [x] **ON**line
 
-## Designer(s)
+## Designer
 
-- Ada Lovelace
-- Barbara Liskov
+- Little Squid
 
 ## Description
 
-A high-level overview intended to clarify the concept and intuition behind the challenge, outlining its educational
-goals and the skills it aims to test in participants.
+The challenge involves understaning how cookies work in web application. Participants will interact with a series of web pages where cookies are set and manipulated.
+
+Educational Goal: Participants will gain skills in analyzing web application behaviour, exploring brower-client interactions, and leveraging cookie-band mechanisms to find vulnerabilities.
+
+Skill Test: Focus on testing participants's knowledge of web security concept like cookie handling, HTTP headers, and authenticaion bypass techniques.
 
 **IMPORTANT:** This description will **NOT** be shared with participants.
 
 ## Category(ies)
 
-- `pwn`
-- `re`
 - `web`
-- `stegano`
-- `env`
-- `crypto`
-- `osint`
-- `web3`
-- `ai`
-- `android`
-- `auto`
-- `misc`
 
 ---
 
@@ -47,14 +37,14 @@ goals and the skills it aims to test in participants.
 - **[source/README.md](source/README.md)**: Comprehensive instructions on how to have a running instance of your
   challenge from the source.
   If your project includes multiple subprojects, please consult us (Anis and Hugo).
-- **[source/*](source/)**: Your source code.
+- **[source/\*](source/)**: Your source code.
 
 ## 3. Offline Artifacts [OPTIONAL]
 
-> **NOTE:** This directory is optional for online challenges. However, if offline artifacts need to be provided as well, 
+> **NOTE:** This directory is optional for online challenges. However, if offline artifacts need to be provided as well,
 > they should be placed here.
 
-- **[offline-artifacts/*](offline-artifacts/)**: All files intended to be downloaded by participants
+- **[offline-artifacts/\*](offline-artifacts/)**: All files intended to be downloaded by participants
   (e.g., a flagless version of the running binary executable of a pwn challenge).
   For large files (exceeding 100 MB), please consult us (Anis and Hugo).
 
@@ -62,7 +52,7 @@ goals and the skills it aims to test in participants.
 
 - **[solution/README.md](solution/README.md)**: A detailed writeup of the working solution.
 - **[solution/FLAGS.md](solution/FLAGS.md)**: A single markdown file listing all (up-to-date) flags.
-- **[solution/*](solution/)**: Any additional files or code necessary for constructing a reproducible solution for the
+- **[solution/\*](solution/)**: Any additional files or code necessary for constructing a reproducible solution for the
   challenge (e.g., `PoC.py`, `requirement.txt`, etc.).
 
 ## 5. Dockerization
