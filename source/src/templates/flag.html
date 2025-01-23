@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>Result Page</title>
+    <style>
+      body {
+        background-color: #fff;
+        color: #000;
+        font-family: Arial, sans-serif;
+        transition: all 0.3s ease;
+      }
+
+      .dark-mode {
+        background-color: #121212;
+        color: #fff;
+      }
+
+      button {
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body class="dark-mode">
+    <h1>EMP GOES OFF!</h1>
+    <img
+      src="{{url_for('static', filename='emp_effect.jpeg')}}"
+      alt="emp_effect"
+      width="500"
+      height="600"
+    />
+    <p>ATHACKCTF{AIApocalypseIsGone}</p>
+  </body>
+</html>

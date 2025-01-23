@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>You are a human!</title>
+  </head>
+  <style>
+    label {
+      display: block;
+    }
+    input,
+    label {
+      margin-top: 0.5rem;
+    }
+  </style>
+  <body>
+    <h1>
+      Now we know you are a human! Come and help us find the solution for the
+      apocalypse hidden in the computer.
+    </h1>
+
+    <img src="static/computer.webp" alt="computer" width="40%" height="40%" />
+    <div>
+      <form action="/human_submit" method="POST">
+        <label for="pass"><h3>Enter the password:</h3></label>
+        <input name="password" type="password" placeholder="password" />
+        <!--  The end of the world isn't far away in this timeline... APOCALYPSE 2040 might hold the key. -->
+        <input type="submit" value="Submit" />
+        <p>{{message}}</p>
+      </form>
+    </div>
+  </body>
+</html>

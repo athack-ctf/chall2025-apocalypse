@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Important Files</title>
+  </head>
+  <style>
+    body {
+      background-image: url("static/window.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    p,
+    ol,
+    a {
+      color: white;
+    }
+  </style>
+  <body>
+    <h1>
+      <p>Important Files</p>
+      <ol>
+        <li>
+          <img
+            src="static/emp.avif"
+            alt="Professor Cookie"
+            width="50"
+            height="50"
+          />
+          <a href="{{ url_for('emp') }}"
+            >Setting off EMP (Electromagnetic Pulse)</a
+          >
+        </li>
+        <li>
+          <img
+            src="static/food.jpeg"
+            alt="Professor Cookie"
+            width="50"
+            height="50"
+          />
+          <a href="{{ url_for('emergencyfood') }}">Emergency Food</a>
+        </li>
+
+        <li>
+          <img
+            src="static/firstaid.png"
+            alt="Professor Cookie"
+            width="50"
+            height="50"
+          />
+          <a href="{{ url_for('firstaid') }}">First Aid</a>
+        </li>
+      </ol>
+    </h1>
+  </body>
+</html>

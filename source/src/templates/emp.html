@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EMP Set Off</title>
+  </head>
+  <style>
+    .pinBox {
+      --width: 296px;
+      --height: 74px;
+      --spacing: 47px;
+
+      display: inline-block;
+      position: relative;
+      width: var(--width);
+      height: var(--height);
+      background-image: url(static/square.png);
+    }
+
+    .pinEntry {
+      position: absolute;
+      padding-left: 21px;
+      font-family: courier, monospaced;
+      font-size: var(--spacing);
+      height: var(--height);
+      letter-spacing: var(--spacing);
+      background-color: transparent;
+      border: 0;
+      outline: none;
+      clip: rect(0px, calc(var(--width) - 21px), var(--height), 0px);
+    }
+  </style>
+  <body>
+    <h1>
+      Here are the steps to set off EMP.
+
+      <p>Step(1)</p>
+      <p>Find the next number in the sequence.</p>
+      <p>9, 73, 241, 561, ?</p>
+
+      <p>Step(2)</p>
+      <p>Enter the code to set off EMP.</p>
+    </h1>
+
+    <form action="/submit" method="POST">
+      <div class="pinBox">
+        <input
+          class="pinEntry"
+          name="token"
+          type="text"
+          maxlength="4"
+          autocomplete="off"
+        />
+      </div>
+      <br />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <p>{{message}}</p>
+  </body>
+</html>
