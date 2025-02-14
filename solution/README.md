@@ -6,6 +6,7 @@
 
 (3) In `/human`, you will see the password in a comment if you inspect the page. `body > div > form > input[type="password"]:nth-child(2)`
 
+(5) In `/emp`, the answer for the next sequence is 1081 and it is the code to set off EMP. Here is the link for how to solve the next sequence https://alteredqualia.com/visualization/hn/sequence/
+
 (4) In `/files`, the flag is hidden in the setting of EMP file.
 
-(5) In `/emp`, the answer for the next sequence is 1081 and it is the code to set off EMP. Here is the link for how to solve the next sequence https://alteredqualia.com/visualization/hn/sequence/

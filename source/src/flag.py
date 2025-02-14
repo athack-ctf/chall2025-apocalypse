@@ -44,7 +44,7 @@ def submit():
     # Retrieve the form data for each digit
     code = request.form.get('token')
     if code == '1081': 
-      return render_template('flag.html', code=code)  # Send the code to the result page
+      return render_template('flag.html')  # Send the code to the result page
     else:
       return render_template('emp.html', message='Incorrect Passcode, try again!' )
     
@@ -61,4 +61,4 @@ def firstaid():
     return render_template('firstaid.html')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
