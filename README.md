@@ -1,4 +1,4 @@
-# Chall - AI Apocalypse
+# Chall - Apocalypse
 
 > This challenge is a web-based CTF challenge focusing on cookies and user interaction with web pages. Participants need to analyze how cookies are set, manipulated, and potentially exploited to solve the challenge.
 
@@ -17,8 +17,6 @@ The challenge involves understaning how cookies work in web application. Partici
 Educational Goal: Participants will gain skills in analyzing web application behaviour, exploring browser-client interactions, and leveraging cookie-band mechanisms to find vulnerabilities.
 
 Skill Test: Focus on testing participants's knowledge of web security concept like cookie handling, HTTP headers, and authenticaion bypass techniques.
-
-**IMPORTANT:** This description will **NOT** be shared with participants.
 
 ## Category
 
