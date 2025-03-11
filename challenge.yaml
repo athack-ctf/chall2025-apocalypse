@@ -1,0 +1,23 @@
+name: "Apocalypse"
+author: "Chit Chit"
+category: Web
+description: |
+    There is an AI robots apocalypse in the city. The steps to stop the apocalypse and how to survive after the apocalypse are hidden in the computer that is in the physics lab of Concordia University.
+    
+value: 0
+
+type: standard
+
+flags:
+  - type: "static"
+    content: "ATHACKCTF{AIApocalypseIsGone}"
+    data: "case_insensitive"
+
+tags:
+  - http
+
+files:
+
+state: hidden
+
+version: "0.1"
